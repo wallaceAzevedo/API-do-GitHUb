@@ -27,6 +27,7 @@ import StarRating from './StarRating';
                     <td>{data.bio}</td>
                     <td>{repositories.map( repo => (
                          <div className = "ui relaxed divided list" key={repo.name}>
+                             <StarRating/>
                             <div className="item">
                                 <i className="large github middle aligned icon">
 
