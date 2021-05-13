@@ -1,7 +1,8 @@
 import logo from './logo.jpg';
 import './App.css';
-import React, {useState} from 'react';
+import React from 'react';
 import Profile from "./components/Profile"
+
 
 function App() {
   return (

@@ -1,5 +1,10 @@
 import React from 'react';
+<<<<<<< Updated upstream
 import StarRating from './StarRating';
+=======
+//import StarRating from '../StartRating';
+
+>>>>>>> Stashed changes
 
  const DisplayTable = ({data, repositories}) => {
     return (

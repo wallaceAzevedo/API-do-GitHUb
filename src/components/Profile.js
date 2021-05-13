@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import DisplayTable from './DisplayTable';
 
+
  const Profile = () => {
 
     const [data, setData] = useState({});
@@ -48,6 +49,7 @@ import DisplayTable from './DisplayTable';
                    Procurar
                 </button>
                 <DisplayTable data={data} repositories={repositories}/>
+                
              </div>
         </div>
         </>
